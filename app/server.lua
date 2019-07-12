@@ -14,5 +14,5 @@ app:get("/index", function(req, res, next)
     res:send("hello world!")
 end)
 
-return app
+app:run()
 
